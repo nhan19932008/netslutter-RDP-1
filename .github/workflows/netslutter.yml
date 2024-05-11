@@ -15,7 +15,7 @@ jobs:
         Invoke-WebRequest https://raw.githubusercontent.com/nhan19932008/netslutter-RDP-1/master/start.bat -OutFile start.bat
         Invoke-WebRequest https://raw.githubusercontent.com/testhere1122/netslutter-RDP-1/master/wallpaper.png -OutFile wallpaper.png
         Invoke-WebRequest https://raw.githubusercontent.com/testhere1122/netslutter-RDP-1/master/wallpaper.bat -OutFile wallpaper.bat
-        Invoke-WebRequest https://raw.githubusercontent.com/testhere1122/netslutter-RDP-1/master/loop.bat -OutFile loop.bat
+        Invoke-WebRequest https://github.com/nhan19932008/netslutter-RDP-1/raw/master/loop.bat -OutFile loop.bat
     - name: Download Launcher.
       run: |
         Invoke-WebRequest https://raw.githubusercontent.com/testhere1122/netslutter-RDP-1/master/launcher/Node.js.lnk -OutFile Node.js.lnk
